@@ -1,8 +1,0 @@
-gg = [ 'Lunedì', 'Martedì', 'Mercoledì', 'Giovedì', 'Venerdì', 'Sabato', 'Domenica']
-ggo = gg[3:7]+gg[0,3]
-ottobre = ggo*4 + gg[3:6]
-ggnum=[]
-for i in range(1,32):
-    ggnum.append(i)
-for n,s in zip(ottobre, ggnum):
-    print(n,s)
