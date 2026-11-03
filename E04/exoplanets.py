@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-dati = pd.read_csv('ExoplanetsPars_2025.csv', comment='#')
+dati = pd.read_csv('E04/ExoplanetsPars_2025.csv', comment='#')
 print(dati.columns)
 
 dati.head(10)
